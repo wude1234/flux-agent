@@ -1,0 +1,30 @@
+# Generated runs and reports
+runs/
+runs_mini_benchmark/
+local_reports/
+
+# Cached packages and local environments
+.conda-pkgs/
+.pytest_cache/
+__pycache__/
+*.py[cod]
+
+# Logs and transient files
+*.log
+*.tmp
+*.temp
+
+# Model weights and checkpoints
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+*.onnx
+
+# Benchmark / prompt data is not part of the code-only upload by default
+benchmarks/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db

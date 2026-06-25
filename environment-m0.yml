@@ -1,0 +1,7 @@
+name: mult-t2i-agent-m0
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pytest>=7
+
