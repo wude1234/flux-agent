@@ -1,7 +1,9 @@
 # Generated runs and reports
 runs/
+runs_*
 runs_mini_benchmark/
 local_reports/
+reports
 
 # Cached packages and local environments
 .conda-pkgs/
